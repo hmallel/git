@@ -1,0 +1,70 @@
+maven commands
+--install
+sudo wget link
+ls
+2--untar
+sudo tar xf maven link
+
+3)to move a new name
+--sudo mv apache maven link
+
+4)to reme that link
+sudo rm -rf maven link
+
+5)owner change to ec2 
+sudo chown -R ec2-user:ec2-user maven3
+
+6)ls
+
+ls -al
+
+vi ~.bashrc
+
+ls -a
+
+ls
+
+pwd
+sudo mv /home/ec2-user/maven3 /opt
+
+ls
+
+cd /opt
+ls
+
+cd ~
+
+sudo vi .bashrc
+
+sudo source .bashrc
+source .bashrc
+
+--to install git
+sudo yum install git -y
+
+--to install java compiler
+
+sudo yum list | grep java-1.8
+sudo yum install java-.8-openjdk-devel.x86_64
+ 
+javac -version
+java -version'
+
+
+---clone a projet from git repo
+
+git clone http:// javatech/myweb.git
+cd myweb/
+
+export PATH=/opt/maven3/bin:$PATH
+
+vi .bashrc
+source = vi .bashrc
+
+mvn package
+cd target
+ls
+cd ..
+ pwd
+mvn compile
+mvn package

@@ -1,0 +1,61 @@
+    
+	
+	nexus  
+	1)cd /opt
+    2  sudo wget https://sonatype-download.global.ssl.fastly.net/repository/repositoryManager/3/nexus-3.18.1-01-unix.tar.gz
+    3  ls -al
+    4  sudo tar xvf nexus-3.18.1-01-unix.tar.gz
+    5  ls -al
+    6  sudo rm nexus-3.18.1-01-unix.tar.gz
+    7  ls -al
+    8  sudo mv nexus-3.18.1-01 nexus1
+    9  ls -al
+   10  sudo chown -R ec2-user:ec2-user nexus1
+   11  ls -al
+   12  sudo yum list | grep java-1.8
+   13  sudo yum install java-1.8.0-openjdk-devel.x86_64
+   14  java -version
+   15  javac -version
+   16  sudo systemctl start nexus1
+   17  ls -al
+   18  sudo systemctl start nexus1
+   19  cd /opt/
+   20  ls
+   21  ls -al
+   22  sudo chown -R ec2-user:ec2-user sonatype-work
+   23  ls -altr
+   24  sudo systemctl nexus1 start
+   25  ls
+   26  sudo systemctl enable nexus1
+   27  sudo systemctl start nexus1
+   28  ls
+   29  cd /opt/
+   30  ls
+   31  ls -a
+   32  ls -al
+   33  ls
+   34  cd nexus1/
+   35  ls
+   36  cd bin/
+   37  ls
+   38  ./
+   39  ./nexus start
+   40  ./nexus status
+   41  ./nexus stop
+   42  ./nexus start
+   43  ./nexus status
+   44  /opt/sonatype-work/nexus3/admin.password
+   45  cd /opt
+   46  cd /sonatype-work
+   47  cd sonatype-work/
+   48  cd nexus3/
+   49  ls -al
+   50  cat admin.password
+   51  ls
+   52  ls -a
+   53  ls -al
+   54  cd /opt
+   55  ls -al
+   56  cd nexus1
+   57  ls -al
+   58  history
